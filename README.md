@@ -3,9 +3,9 @@
 A full-stack mobile application designed to help insurance agents instantly verify claim coverage by chatting with policy documents. Built with a React Native frontend and a Python/FastAPI backend, this app uses Retrieval-Augmented Generation (RAG) to ensure the AI's answers are strictly grounded in the uploaded PDF documents, eliminating hallucinations.
 
 <p align="center">
-  <img src="./assets/image1" width="250" />
-  <img src="./assets/image2" width="250" />
-  <img src="./assets/image3" width="250" />
+  <img src="./assets/image1.jpeg" width="250" />
+  <img src="./assets/image2.jpeg" width="250" />
+  <img src="./assets/image3.jpeg" width="250" />
 </p>
 
 ---
