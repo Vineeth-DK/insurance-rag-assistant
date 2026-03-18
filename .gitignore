@@ -1,0 +1,13 @@
+# Python / Backend
+venv/
+env/
+__pycache__/
+temp_uploads/
+*.pdf
+
+# Node / Mobile
+node_modules/
+.expo/
+
+# Environment variables (keep your keys safe!)
+.env
