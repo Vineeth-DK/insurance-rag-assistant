@@ -49,15 +49,15 @@ This architecture is specifically designed for real-world insurance agencies:
 Open a terminal and navigate to your `backend` folder.
 
 \`\`\`bash
-# Create and activate a virtual environment (optional but recommended)
+## Create and activate a virtual environment (optional but recommended)
 python -m venv venv
-# Windows: venv\Scripts\activate
-# Mac/Linux: source venv/bin/activate
+### Windows: venv\Scripts\activate
+### Mac/Linux: source venv/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install fastapi uvicorn pydantic python-multipart langchain langchain-community langchain-groq langchain-huggingface faiss-cpu pypdf
 
-# Start the server (CRITICAL: Use 0.0.0.0 to expose it to your local network)
+## Start the server (CRITICAL: Use 0.0.0.0 to expose it to your local network)
 python -m uvicorn main:app --host 0.0.0.0 --port 8000
 \`\`\`
 
@@ -83,10 +83,10 @@ const BACKEND_URL = 'http://10.50.18.44:8000';
 Open a new terminal and navigate to your `mobile` folder.
 
 \`\`\`bash
-# Install Node dependencies
+## Install Node dependencies
 npm install
 
-# Start the Expo server in LAN mode
+## Start the Expo server in LAN mode
 npx expo start --lan
 \`\`\`
 Scan the QR code that appears in the terminal using the **Expo Go** app on your phone.
